@@ -64,23 +64,11 @@
       <version>1.18.28</version>
       <scope>provided</scope>
     </dependency>
-    <!-- nmap wraper class dependency using the given below repository-->
-   <dependency>
-            <groupId>org.nmap4j</groupId>
-            <artifactId>nmap4j</artifactId>
-            <version>1.0.4</version>
-        </dependency>
 
 
   </dependencies>
-  <!-- Nmap repository from the github-->
-  <repositories>
-    <repository>
-        <id>nmap4j-repo</id>
-        <url>https://github.com/nmap4j/mvn-repo/raw/master/</url>
-    </repository>
-</repositories>
-
+  
+  
   <build>
     <plugins>
       <!-- Spring Boot Maven Plugin -->

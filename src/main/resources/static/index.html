@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Security Dashboard</title>
+</head>
+<body>
+    <h1>Cyber Security Tool Dashboard</h1>
+    
+    <div>
+        <h2>Nmap Scan</h2>
+        <input type="text" id="scanTarget" placeholder="Enter target IP">
+        <button onclick="scanPorts()">Scan Ports</button>
+        <pre id="scanResult"></pre>
+    </div>
+    
+    <div>
+        <h2>Network Sniffing</h2>
+        <button onclick="sniffPackets()">Capture Packets</button>
+        <pre id="sniffResult"></pre>
+    </div>
+    
+    <div>
+        <h2>Exploit Automation</h2>
+        <input type="text" id="exploitTarget" placeholder="Enter target IP">
+        <button onclick="runExploit()">Run Exploit</button>
+        <pre id="exploitResult"></pre>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Automation Tool</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <img src="" alt="">
+        <nav class="navlinks">
+            <ul class="header_ul">
+                <li class="link-1">Port Scanner</li>
+                <li class="link-2">Packet Scanner</li>
+                <li class="link-3">Metasploit</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <img src="" alt="">
+        <form  method="post">
+            <input type="text" id="scanTarget" placeholder="Enter target IP">
+            <button onclick="scanPorts()" type="button">Scan</button>
+            <pre id="scanResult"></pre>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html> -->
