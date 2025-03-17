@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1a2e;
+    padding: 15px 20px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+/* Navigation Styling */
+.header_ul {
+    list-style: none;
+    display: flex;
+}
+
+.header_ul li {
+    margin: 0 15px;
+}
+
+button {
+    background: #00adb5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #008c9e;
+}
+
+/* Main Section */
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Dropdown Styling */
+select {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Search Box */
+.hidden {
+    display: none;
+}
+
+#searchBox {
+    margin-top: 20px;
+}
