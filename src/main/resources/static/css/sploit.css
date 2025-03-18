@@ -29,34 +29,10 @@
 .header_ul li {
     margin: 0 15px;
     align-items: center;
-}
-
-.header_ul li a:hover{
-    color: #008c9e;
-    cursor: pointer;
-}
-.header_ul li a {
-    text-decoration: none;
     color: rgb(234, 199, 135);
 }
-/* Main Section */
-.main {
-    text-align: center;
-    margin-top: 50px;
-}
 
-/* Dropdown Styling */
-select {
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-/* Search Box */
-.hidden {
-    display: none;
-}
-
-#searchBox {
-    margin-top: 20px;
+.header_ul li:hover{
+    color: #008c9e;
+    cursor: pointer;
 }

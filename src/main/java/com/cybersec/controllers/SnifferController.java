@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/sniff")
+//@RequestMapping("/sniffer")
 public class SnifferController {
 
     private final SnifferService snifferService;
@@ -18,7 +19,7 @@ public class SnifferController {
     }
 
     @GetMapping
-    public List<String> capturePackets() {
-        return snifferService.capturePackets();
+    public String capturePackets() {
+        return snifferService.startSniffing();
     }
 }

@@ -39,24 +39,3 @@
     text-decoration: none;
     color: rgb(234, 199, 135);
 }
-/* Main Section */
-.main {
-    text-align: center;
-    margin-top: 50px;
-}
-
-/* Dropdown Styling */
-select {
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px;
-}
-
-/* Search Box */
-.hidden {
-    display: none;
-}
-
-#searchBox {
-    margin-top: 20px;
-}
