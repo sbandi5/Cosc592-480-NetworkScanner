@@ -16,7 +16,7 @@ public class ScannerService {
         StringBuilder output = new StringBuilder();
         try {
             String nmapPath = "C:\\Program Files (x86)\\Nmap\\nmap.exe";
-            String[] command = { nmapPath, "-p", "1-1000", "-sV", target };
+            String[] command = { nmapPath, "-p", "1-5000", "-sV", target };
 
             ProcessBuilder pb = new ProcessBuilder(command);
             pb.redirectErrorStream(true);

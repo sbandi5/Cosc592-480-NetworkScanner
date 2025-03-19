@@ -29,10 +29,13 @@
 .header_ul li {
     margin: 0 15px;
     align-items: center;
-    color: rgb(234, 199, 135);
 }
 
-.header_ul li:hover{
+.header_ul li a:hover{
     color: #008c9e;
     cursor: pointer;
+}
+.header_ul li a {
+    text-decoration: none;
+    color: rgb(234, 199, 135);
 }
